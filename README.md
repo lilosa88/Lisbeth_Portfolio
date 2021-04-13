@@ -10,7 +10,7 @@ Data Science portafolio
 # [Project 3: Case study to predict final prices of houses in Iowa:Project Overview](https://github.com/lilosa88/Data-Science-Portafolio-/tree/lilosa88-PricingHouse)
 - With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, create a model to predict the final price of each home.
 
-# [Project 4: Prediction of Sunspots:Project Overview](ttps://github.com/lilosa88/Data-Science-Portafolio-/tree/lilosa88-Sunspots)
+# [Project 4: Prediction of Sunspots:Project Overview](https://github.com/lilosa88/Data-Science-Portafolio-/tree/lilosa88-Sunspots)
 - Sunspots are temporary phenomena on the Sun's photosphere that appear as spots darker than the surrounding areas. Create a model to predict the number of suspots.
 
 # [Project 5:Digit Recognition:Project Overview](https://github.com/lilosa88/Data-Science-Portafolio-/tree/lilosa88-DigitRecognizion)
