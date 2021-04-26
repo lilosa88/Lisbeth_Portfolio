@@ -1,4 +1,4 @@
-# Lisbeth_Portafolio
+# Lisbeth_Pérez_Ocampo_Portafolio
 Data Science portafolio
 # [Project 1: Case study of the survival rate in Titanic:Project Overview](https://github.com/lilosa88/Titanic)
 - Create a model using machine learning techiniques in order to predicts which passengers survived the Titanic shipwreck.
