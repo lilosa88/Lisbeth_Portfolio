@@ -24,7 +24,8 @@
 - The best accuracy (0.9711) was obtained with KNN with k=3.
 
 # [Project 3: Case study to predict final prices of houses in Iowa:](https://github.com/lilosa88/PricingHouse)
-- With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, create a model to predict the final price of each home.
+
+- This project belongs to [kaggle's competitions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). In order to buy a house there are many different parameters that influences price negotiations. Therefore, the idea is to create a model that predicts the sales prices given a dataset with 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa. 
 
 # [Project 4: Prediction of Sunspots:](https://github.com/lilosa88/Sunspots)
 - Sunspots are temporary phenomena on the Sun's photosphere that appear as spots darker than the surrounding areas. Create a model to predict the number of suspots.
