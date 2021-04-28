@@ -52,7 +52,16 @@ Specifically this project is part of the second course in this specialization.
 - For the Neural Netwrok model: We use Convolutional layer with the activation function as a "relu". We use two Long Short Term Memory layers. We use three Dense layers with the activation function as a "relu". We use lr=1e-5 and epoch=100. The loss function used was Huber. The metric was mae.
   
 
-# [Project 5: Digit Recognition](https://github.com/lilosa88/DigitRecognizion)
+# [Project 5: Digit Recognizer](https://github.com/lilosa88/DigitRecognizion)
+
+- This project belongs to [kaggle's competitions](https://www.kaggle.com/c/digit-recognizer) and I carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
+1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
+2. Convolutional Neural Networks in TensorFlow 
+3. Natural Language Processing in TensorFlow 
+4. Sequences, Time Series and Prediction
+
+Specifically this project is part of the second course in this specialization. 
+
 - MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike.
 
-- Create a model that correctly identify digits from a dataset of tens of thousands of handwritten images.  
+- The objective of this study is to correctly identify digits from a dataset of tens of thousands of handwritten images.
