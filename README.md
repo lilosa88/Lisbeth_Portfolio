@@ -27,6 +27,14 @@
 
 - This project belongs to [kaggle's competitions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). In order to buy a house there are many different parameters that influences price negotiations. Therefore, the idea is to create a model that predicts the sales prices given a dataset with 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa. 
 
+- The features that had a huge amount of missing values (approx. more than 2000 missing values), were treated accordingly. We found that indded this values were not missing just they were related to a missing of that particular feature (i.e. For PoolQuality the missing values means that that house did not have any pool). For the rest of the features with missing values, as these features had maximum 4 missing values out of 2919 we fill the data with the corresponding media value for the cases where the feature is float64. For the categorical variables we fill it with the mode. 
+
+- For the feature engineering new columns were created in order to better understanding of the data. The redundant or useless information was dropped. As well the categorical variable as strings they were transformed into continuos variables making use of dummy variables and the respective normalization of the whole dataset was carried out using MinMaxScaler. 
+
+- Two machine Learning model were tested: Ridge Regression and Lasso. The hyperparameter 'alpha' has the following values: 0.0001, 0.001, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 20, 50, 100, 500, 1000. The best for Ridge Regression alpha was 10 and for Lasso was 100. At the end the best accuaracy obtained was given by Lasso: The train Lasso Accuracy was 0.9229 and the test Lasso Accuracy was 0.8902.
+
+Conclusion: The Lasso method was choseen. 
+
 # [Project 4: Prediction of Sunspots:](https://github.com/lilosa88/Sunspots)
 - Sunspots are temporary phenomena on the Sun's photosphere that appear as spots darker than the surrounding areas. Create a model to predict the number of suspots.
 
