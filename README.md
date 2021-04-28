@@ -65,3 +65,15 @@ Specifically this project is part of the second course in this specialization.
 - MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike.
 
 - The objective of this study is to correctly identify digits from a dataset of tens of thousands of handwritten images.
+
+-  For the feature engineering we:
+  
+  - Defined X and Y from the df_train dataset
+  - So we normalize dividing by 255 (maximum value that you can find in one row of the df_train dataset).
+  - Resahping, following X = X.values.reshape(-1, 28,28,1)
+  - Label encoding for the y label
+  - Split into train and test
+
+- We compare the performance of two following two neural networks: Simple Model (Accuracy 0.97238) and Model with double convolutions and pooling (Accuracy 0.9864). In both case the activation functions used were 'relu' and 'softmax', the lr = 0.001 and as loss function we use categorical_crossentropy.
+  
+  
