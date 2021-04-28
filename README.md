@@ -12,7 +12,16 @@
 
 
 # [Project 2: Case study of the Diabetes rate](https://github.com/lilosa88/Diabetes)
-- Create a model using machine learning techiniques in order to predicts which patient has/has not diabetes.
+
+- Dataset is obtained from [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.). This has been collected using direct questionnaires from the patients of Sylhet Diabetes Hospital in Sylhet, Bangladesh and approved by a doctor. This dataset contains the sign and symptpom data of newly diabetic or would be diabetic patient. The objective is to build a predictive model that predicts if a pacient is prone to be diabetic or not using the dataset. 
+
+- From data exploration we found that except for the features itching and delayed healing, the rest of the features has an influence on the diabetes rate. Specificately the once that has more influence are:
+-Gender: Women are more prone to get diabetes.
+-Polyuria: If the pacient present an excessive or an abnormally large production or passage of urine then is more prone to get diabetes.
+-Polydipsia: If the pacient present an excessive thirst or excess drinking is more prone to get diabetes.
+-Polyphagia:  If the pacient present an feels an abnormally strong sensation of hunger or desire to eat often leading to or accompanied by overeating is more prone to get diabetes.
+
+- The best accuracy (0.9711) was obtained with KNN with k=3.
 
 # [Project 3: Case study to predict final prices of houses in Iowa:](https://github.com/lilosa88/PricingHouse)
 - With 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa, create a model to predict the final price of each home.
