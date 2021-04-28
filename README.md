@@ -8,7 +8,7 @@
 
 - Different Classification Machine Learning model and Deep Learning model were used in oder to predict the survival of passengers aboard Titanic. Among the classification ML we used Random Forest, Logistic Regression and KNN.
 
-- The best accuracy (0.86) was obtained from Deep Learning Model, which was conformed by Sequential and Dropouts layers. 
+- The best accuracy (0.86) was obtained from Deep Learning Model. The use of Dropout layers was used in order to avoid overfitting.  
 
 
 # [Project 2: Case study of the Diabetes rate](https://github.com/lilosa88/Diabetes)
