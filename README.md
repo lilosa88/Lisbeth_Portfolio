@@ -1,6 +1,6 @@
 # Data Science Portafolio
 
-# [Project 1: Case study of the survival rate in Titanic:](https://github.com/lilosa88/Titanic)
+# [Project 1: Case study of the survival rate in Titanic](https://github.com/lilosa88/Titanic)
 
 - The sinking of the Titanic is one of the most infamous shipwrecks in history. While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others. This project that is part of [kaggle's competitions](https://www.kaggle.com/c/titanic/overview) has as objective to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
 
@@ -23,7 +23,7 @@
 
 - The best accuracy (0.9711) was obtained with KNN with k=3.
 
-# [Project 3: Case study to predict final prices of houses in Iowa:](https://github.com/lilosa88/PricingHouse)
+# [Project 3: Case study to predict final prices of houses in Iowa](https://github.com/lilosa88/PricingHouse)
 
 - This project belongs to [kaggle's competitions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). In order to buy a house there are many different parameters that influences price negotiations. Therefore, the idea is to create a model that predicts the sales prices given a dataset with 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa. 
 
@@ -34,7 +34,7 @@
 - Two machine Learning model were tested: Ridge Regression and Lasso. The hyperparameter 'alpha' has the following values: 0.0001, 0.001, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 20, 50, 100, 500, 1000. The best for Ridge Regression alpha was 10 and for Lasso was 100. At the end the best accuaracy obtained was given by Lasso: The train Lasso Accuracy was 0.9229 and the test Lasso Accuracy was 0.8902.
 
 
-# [Project 4: Prediction of Sunspots:](https://github.com/lilosa88/Sunspots)
+# [Project 4: Case study in order to predict the total sunspots number](https://github.com/lilosa88/Sunspots)
 - This project belongs to [kaggle's competitions](https://www.kaggle.com/robervalt/sunspots) and I carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
 1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
 2. Convolutional Neural Networks in TensorFlow 
@@ -45,7 +45,14 @@ Specifically this project is part of the second course in this specialization.
 
 - Sunspots are temporary phenomena on the Sun's photosphere that appear as spots darker than the surrounding areas. They are regions of reduced surface temperature caused by concentrations of magnetic field flux that inhibit convection. Sunspots usually appear in pairs of opposite magnetic polarity. Their number varies according to the approximately 11-year solar cycle. We have a dataset that contains the monthly mean total sunspot number, from 1749/01/01 to 2017/08/31. The idea is to create a Deep Learning model that is capable of predicting the total sunspot number in the future. 
 
-# [Project 5:Digit Recognition:](https://github.com/lilosa88/DigitRecognizion)
+- Loking at how the monthly mean total sunspot number changes with the time we observe a bit of seaonality. However it is not very regular with some peaks much higher than others. We also have a bit of noise but there is not general trend.
+
+-  We split our series into a training and validation datatests. We select split_time= 3000. We set all the constants for our neural network model. Window_size = 20, batch_size = 32 and shuffle_buffer_size = 1000.
+
+- For the Neural Netwrok model: We use Convolutional layer with the activation function as a "relu". We use two Long Short Term Memory layers. We use three Dense layers with the activation function as a "relu". We use lr=1e-5 and epoch=100. The loss function used was Huber. The metric was mae.
+  
+
+# [Project 5: Digit Recognition](https://github.com/lilosa88/DigitRecognizion)
 - MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike.
 
 - Create a model that correctly identify digits from a dataset of tens of thousands of handwritten images.  
