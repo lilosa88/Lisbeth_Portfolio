@@ -1,8 +1,15 @@
-# Lisbeth_Pérez_Ocampo_Portafolio
-Data Science portafolio
+# Data Science Portafolio
+
 # [Project 1: Case study of the survival rate in Titanic:Project Overview](https://github.com/lilosa88/Titanic)
-- Create a model using machine learning techiniques in order to predicts which passengers survived the Titanic shipwreck.
-- Train/Test data was used in order to train and evaluate the efficiency of the model.
+
+-The sinking of the Titanic is one of the most infamous shipwrecks in history. While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others. This project that is part of kaggle's competitions has as objective to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
+
+- From data exploration we found that women and kids had more chances to survive. As well, the class ticket played a role, being the 1st class the onces with more chances to survive. The age and the place of embarking was decisive for the suvival for mens. People that travel with 1 or 3 people than 0 or more than 3, had more chances to survive.
+
+- Different Classification Machine Learning model and Deep Learning model were used in oder to predict the survival of passengers aboard Titanic. Among the classification ML we used Random Forest, Logistic Regression and KNN.
+
+- The best accuracy (0.86) was obtained from Deep Learning Model, which was conformed by Sequential and Dropouts layers. 
+
 
 # [Project 2: Case study of the Diabetes rate](https://github.com/lilosa88/Diabetes)
 - Create a model using machine learning techiniques in order to predicts which patient has/has not diabetes.
