@@ -1,4 +1,4 @@
-# Data Science Portafolio
+# Data Science Portfolio
 
 # [Project 1: Case study of the survival rate in Titanic](https://github.com/lilosa88/Titanic)
 
