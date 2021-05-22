@@ -171,7 +171,7 @@ Specifically this project is part of the second course in this specialization.
 - Rock, Paper and Scissors is a dataset containing 2,892 images of diverse hands in Rock/Paper/Scissors poses.
 
 - The objective of this study is to correctly identify if the image.
-- 
+
 -  For the feature engineering we:
   
    - We define each directory using os library.
