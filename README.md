@@ -156,7 +156,7 @@ Specifically this project is part of the second course in this specialization.
   - Neural Network with Convolution, Pooling and Dropout making use of Image Augmentation (Accuracy 0.8105)  
   - Pre-trained Neural Network (using InceptionV3) with Convolution, Pooling and Dropout (Accuracy 0.9610)  
 
-# [Project 10: Rock, Paper and Scissors](https://github.com/lilosa88/Rock-Paper-and-Scissors)
+# [Project 9: Rock, Paper and Scissors](https://github.com/lilosa88/Rock-Paper-and-Scissors)
 
 # Objective
 
@@ -184,7 +184,7 @@ Specifically this project is part of the second course in this specialization.
  
   - Neural Network with Convolution, Pooling and Dropout making use of Image Augmentation (Accuracy 0.9806)  
 
-# [Project 11: Spam Detection](https://github.com/lilosa88/Spam-Detection-)
+# [Project 10: Spam Detection](https://github.com/lilosa88/Spam-Detection-)
 # Objective
 
 Dataset is obtained from [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection). The SMS Spam Collection is a public set of SMS labeled messages that have been collected for mobile phone spam research. The objective is to build a predictive model that predicts if a message is spam or not. 
