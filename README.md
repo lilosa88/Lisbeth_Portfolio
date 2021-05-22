@@ -183,4 +183,23 @@ Specifically this project is part of the second course in this specialization.
    - Imagen Augmentation (only in the second and third model) which is a very simple, but powerful tool to help to avoid overfitting. To put it simply, if you are      training a model to spot cats, and your model has never seen what a cat looks like when lying down, it might not recognize that in future. Augmentation simply      amends your images on-the-fly while training using transforms like rotation, among others.
  
   - Neural Network with Convolution, Pooling and Dropout making use of Image Augmentation (Accuracy 0.9806)  
+
+# [Project 11: Spam Detection](https://github.com/lilosa88/Spam-Detection-)
+# Objective
+
+Dataset is obtained from [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/sms+spam+collection). The SMS Spam Collection is a public set of SMS labeled messages that have been collected for mobile phone spam research. The objective is to build a predictive model that predicts if a message is spam or not. 
+
+# Preprocessing
+
+- We clean the data by removing punctuations, stopwords and applying lowercase. Thus we use PorterStemmer, stemming is the process of reducing words to their word stem.
+- We convert our sentences into vectors using Bag of words model.
+- We applying encoding into the column label.
+- Train and test split. 
+
+# Machine Learning Model
+
+- Naive Bayes Model
  
+ Train Random Forest's Accuracy:  0.9887
+ 
+ Test Random Forest's Accuracy:  0.9838 
