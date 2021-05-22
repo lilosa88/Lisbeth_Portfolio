@@ -102,7 +102,7 @@ Specifically this project is part of the second course in this specialization.
 
 - We compare the performance of the two following two neural networks: Simple Neural Network (Accuracy 0.9299) and Neural Network with convolutions and pooling (Accuracy 0.9953). 
 
- # [Project 5: Horse or Human](https://github.com/lilosa88/Horse-or-Human)
+ # [Project 7: Horse or Human](https://github.com/lilosa88/Horse-or-Human)
 
 - This project belongs to [kaggle's competitions](https://www.kaggle.com/sanikamal/horses-or-humans-dataset) and I carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
 1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
@@ -126,7 +126,7 @@ Specifically this project is part of the second course in this specialization.
 
 - For the Neural Network with convolutions and pooling (Accuracy 0.9555). 
 
-# [Project 5: Dogs vs Cats](https://github.com/lilosa88/Dogs-vs-Cats)
+# [Project 8: Dogs vs Cats](https://github.com/lilosa88/Dogs-vs-Cats)
 
 - This project belongs to [kaggle's competitions](https://www.kaggle.com/c/dogs-vs-cats/overview) and I carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
 1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
