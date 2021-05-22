@@ -158,8 +158,6 @@ Specifically this project is part of the second course in this specialization.
 
 # [Project 9: Rock, Paper and Scissors](https://github.com/lilosa88/Rock-Paper-and-Scissors)
 
-# Objective
-
 - This project belongs to [kaggle's competitions](https://www.kaggle.com/c/rock-paper-scissors/overview) and I carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
 1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
 2. Convolutional Neural Networks in TensorFlow 
@@ -197,6 +195,6 @@ Specifically this project is part of the second course in this specialization.
 
 - Machine Learning Model: Naive Bayes Model
  
- Train Random Forest's Accuracy:  0.9887
+  Train Random Forest's Accuracy:  0.9887
  
- Test Random Forest's Accuracy:  0.9838 
+  Test Random Forest's Accuracy:  0.9838 
