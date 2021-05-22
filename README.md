@@ -102,7 +102,7 @@ Specifically this project is part of the second course in this specialization.
 
 - We compare the performance of the two following two neural networks: Simple Neural Network (Accuracy 0.9299) and Neural Network with convolutions and pooling (Accuracy 0.9953). 
 
- # [Project 5: Horse or Human](https://github.com/lilosa88/Horse-or-Human/blob/main/README.md)
+ # [Project 5: Horse or Human](https://github.com/lilosa88/Horse-or-Human)
 
 - This project belongs to [kaggle's competitions](https://www.kaggle.com/sanikamal/horses-or-humans-dataset) and I carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
 1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
@@ -125,3 +125,33 @@ Specifically this project is part of the second course in this specialization.
     - Data that goes into neural networks should usually be normalized in some way to make it more amenable to processing by the network. In our case, we will          preprocess our images by normalizing the pixel values to be in the [0, 1] range (originally all values are in the [0, 255] range). In Keras this can be done        via the keras.preprocessing.image.ImageDataGenerator class using the rescale parameter. This ImageDataGenerator class allows you to instantiate generators of      augmented image batches (and their labels) via .flow(data, labels) or .flow_from_directory(directory). These generators can then be used with the Keras model      methods that accept data generators as inputs: fit, evaluate_generator, and predict_generator.
 
 - For the Neural Network with convolutions and pooling (Accuracy 0.9555). 
+
+# [Project 5: Dogs vs Cats](https://github.com/lilosa88/Dogs-vs-Cats)
+
+- This project belongs to [kaggle's competitions](https://www.kaggle.com/c/dogs-vs-cats/overview) and I carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
+1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
+2. Convolutional Neural Networks in TensorFlow 
+3. Natural Language Processing in TensorFlow 
+4. Sequences, Time Series and Prediction
+
+  Specifically this project is part of the second course in this specialization. 
+
+- Dogs vs Cats is a dataset of 1500 images for each dogs and cats. Each image have a different sizes and is unlabel.
+
+- The objective of this study is to correctly identify if the image is a dog or a cat.
+
+-  For the feature engineering we:
+  
+   - We define each directory using os library.
+
+   - Use of data generators. It read the pictures in our source folders, convert them to float32 tensors, and feed them (with their labels) to our network. We have      one generator for the training images and one for the validation images. The two generators yield batches of images of size 150x150 and their labels (binary). 
+
+   - Data that goes into neural networks should usually be normalized in some way to make it more amenable to processing by the network. In our case, we will            preprocess our images by normalizing the pixel values to be in the [0, 1] range (originally all values are in the [0, 255] range). In Keras this can be done        via the keras.preprocessing.image.ImageDataGenerator class using the rescale parameter. This ImageDataGenerator class allows you to instantiate generators of      augmented image batches (and their labels) via .flow(data, labels) or .flow_from_directory(directory). These generators can then be used with the Keras model      methods that accept data generators as inputs: fit, evaluate_generator, and predict_generator.
+
+   - Imagen Augmentation (only in the second and third model) which is a very simple, but powerful tool to help to avoid overfitting. To put it simply, if you are      training a model to spot cats, and your model has never seen what a cat looks like when lying down, it might not recognize that in future. Augmentation simply      amends your images on-the-fly while training using transforms like rotation, among others.
+
+- We applied four different models:
+  - Neural Network with Convolution and Pooling (Accuracy 0.9875). We found overfitting.  
+  - Neural Network with Convolution and Pooling making use of Imagen Augmentation (Accuracy 0.7970)  
+  - Neural Network with Convolution, Pooling and Dropout making use of Image Augmentation (Accuracy 0.8105)  
+  - Pre-trained Neural Network (using InceptionV3) with Convolution, Pooling and Dropout (Accuracy 0.9610)  
