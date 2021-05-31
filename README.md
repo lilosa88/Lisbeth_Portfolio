@@ -241,4 +241,20 @@ Specifically this project is part of the second course in this specialization.
 - Preprocessing: We convert the text into a list of broken sentences. To do so we make use of tokenizer and padding.
  
  - Neural Network with one Embedding layer, one Bidiractional LSTM layer and one Dense layers (Accuracy 0.9536).
+
+# [Project 13: Creating Poetry](https://github.com/lilosa88/Poetry)
+
+- This project was carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
+1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
+2. Convolutional Neural Networks in TensorFlow 
+3. Natural Language Processing in TensorFlow 
+4. Sequences, Time Series and Prediction
+
+  Specifically this project is part of the third course in this specialization. 
+  
+- We create a file with a combinations of songs. The purpouse is to create a model that allow us to complete a sentence.
+
+- Preprocessing: We convert the text into a list of broken sentences. To do so we make use of tokenizer and padding.
+ 
+ - Neural Network with one Embedding layer, one Bidiractional LSTM layer and one Dense layers (Accuracy 0.7726).
  
