@@ -76,7 +76,7 @@ Specifically this project is part of the second course in this specialization.
 
 - We compare the performance of two following two neural networks: Simple Model (Accuracy 0.97238) and Model with double convolutions and pooling (Accuracy 0.9864). In both case the activation functions used were 'relu' and 'softmax', the lr = 0.001 and as loss function we use categorical_crossentropy.
   
-  # [Project 6: Fashion-MNIST](https://github.com/lilosa88/Fashion-MNIST-)
+# [Project 6: Fashion-MNIST](https://github.com/lilosa88/Fashion-MNIST-)
 
 - This project belongs to [kaggle's competitions](https://www.kaggle.com/zalando-research/fashionmnist) and I carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
 1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
@@ -102,7 +102,7 @@ Specifically this project is part of the second course in this specialization.
 
 - We compare the performance of the two following two neural networks: Simple Neural Network (Accuracy 0.9299) and Neural Network with convolutions and pooling (Accuracy 0.9953). 
 
- # [Project 7: Horse or Human](https://github.com/lilosa88/Horse-or-Human)
+# [Project 7: Horse or Human](https://github.com/lilosa88/Horse-or-Human)
 
 - This project belongs to [kaggle's competitions](https://www.kaggle.com/sanikamal/horses-or-humans-dataset) and I carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
 1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
