@@ -198,3 +198,41 @@ Specifically this project is part of the second course in this specialization.
   Train Random Forest's Accuracy:  0.9887
  
   Test Random Forest's Accuracy:  0.9838 
+  
+  # [Project 11: Sarcasm-detection](https://github.com/lilosa88/Spam-Detection-)
+
+- This project belongs to [kaggle's competitions](https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection/home) and I carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
+1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
+2. Convolutional Neural Networks in TensorFlow 
+3. Natural Language Processing in TensorFlow 
+4. Sequences, Time Series and Prediction
+
+  Specifically this project is part of the third course in this specialization. 
+  
+- We will make use of a public data-sets published by [Rishabh Misra](https://rishabhmisra.github.io/publications/) with details on [Kaggle] (https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection/home). News Headlines dataset for Sarcasm Detection is collected from two news website. [TheOnion](https://www.theonion.com/) aims at producing sarcastic versions of current events and we collected all the headlines from News in Brief and News in Photos categories (which are sarcastic). We collect real (and non-sarcastic) news headlines from [HuffPost](https://www.huffingtonpost.com/). 
+
+- For the preprocessing:
+
+  - Test and train split: This dataset has about 27,000 records. So, we train on 20,000 and validate on the rest. 
+
+  -For both train and test data we apply the following steps:
+
+      - We apply tokenizer with vocab_size = 1000 and oov_tok = "<OOV>".
+      - We apply the fit_on_texts method. 
+      - We apply the word_index method. 
+      - We turn the sentences into lists of values based on these tokens.To do so, we apply the method texts_to_sequences.
+      - We apply the method pad_sequences that use padding. 
+      - We convert the two train and test sets into arrays
+
+- Neural Network
+  
+  - This model was created using tf.keras.models.Sequential, which defines a SEQUENCE of layers in the neural network. These sequence of layers used were the following:
+  - One Embedding layer
+  - One GlobalAveragePooling1D layer
+  - Two Dense layers: This adds a layer of neurons. Each layer of neurons has an activation function to tell them what to do. Therefore, the first Dense layer           consisted in 24 neurons with relu as an activation function. The second, have 1 neuron and sigmoid as activation function. 
+
+- We built this model using adam optimizer and binary_crossentropy as loss function, as we're classifying to different classes.
+
+- The number of epochs=30
+
+- We obtained Accuracy 0.8800 for the train data and Accuracy 0.8171 for the validation data.
