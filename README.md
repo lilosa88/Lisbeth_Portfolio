@@ -257,4 +257,28 @@ Specifically this project is part of the second course in this specialization.
 - Preprocessing: We convert the text into a list of broken sentences. To do so we make use of tokenizer and padding.
  
  - Neural Network with one Embedding layer, one Bidiractional LSTM layer and one Dense layers (Accuracy 0.7726).
+
+# [Project 14: Fake-News-Classifier](https://github.com/lilosa88/Fake-News-Classifier)
+
+- TThis project belongs to [kaggle's competitions](https://www.kaggle.com/c/fake-news/data). The objective is to sevelop a machine learning or Deep Learning program to identify when an article might be fake news.
+
+
+- Preprocessing: We remove all the missing values. Followed by cleaning the data by removing punctuations, stopwords and applying lowercase. Thus we use PorterStemmer, stemming is the process of reducing words to their word stem.
  
+-Models
+
+- First model: Bag of words and Machine Learning model 
+    - Train MultinomialNB Algorithm's Accuracy: 0.924
+    - Test MultinomialNB Algorithm's Accuracy: 0.901
+
+- Second model: One hot representation and Neural Network with LSTM
+    - Train Neural Network's Accuracy: 0.996
+    - Test Neural Network's Accuracy: 0.906
+
+- Third model: One hot representation and Neural Network with a Bidirectional LSTM and a Dropout layer
+    - Train Neural Network's Accuracy: 0.996
+    - Test Neural Network's Accuracy: 0.907
+
+- Fourth model: TF-idf Vectorizer and Machine Learning model 
+    - Train MultinomialNB Algorithm's Accuracy: 0.918
+    - Test MultinomialNB Algorithm's Accuracy: 0.880
