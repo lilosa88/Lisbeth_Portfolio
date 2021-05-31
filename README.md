@@ -217,7 +217,7 @@ Specifically this project is part of the second course in this specialization.
 
   - For both train and test data we apply the following steps:
 
-      - We apply tokenizer with vocab_size = 1000 and oov_tok = "<OOV>".
+      - We apply tokenizer with vocab_size = 1000 and oov_tok = OOV.
       - We apply the fit_on_texts method. 
       - We apply the word_index method. 
       - We turn the sentences into lists of values based on these tokens.To do so, we apply the method texts_to_sequences.
