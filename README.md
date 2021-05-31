@@ -264,8 +264,6 @@ Specifically this project is part of the second course in this specialization.
 
 
 - Preprocessing: We remove all the missing values. Followed by cleaning the data by removing punctuations, stopwords and applying lowercase. Thus we use PorterStemmer, stemming is the process of reducing words to their word stem.
- 
--Models
 
 - First model: Bag of words and Machine Learning model 
     - Train MultinomialNB Algorithm's Accuracy: 0.924
