@@ -226,7 +226,7 @@ Specifically this project is part of the second course in this specialization.
 
 - Neural Network with one Embedding layer, one GlobalAveragePooling1D layer and two Dense layers (Accuracy 0.8800).
 
-# [Project 12: Sarcasm-detection](https://github.com/lilosa88/Guessing-following-words)
+# [Project 12: Guessing-following-words](https://github.com/lilosa88/Guessing-following-words)
 
 - This project was carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
 1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
