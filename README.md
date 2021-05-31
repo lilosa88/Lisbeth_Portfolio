@@ -215,7 +215,7 @@ Specifically this project is part of the second course in this specialization.
 
   - Test and train split: This dataset has about 27,000 records. So, we train on 20,000 and validate on the rest. 
 
-  -For both train and test data we apply the following steps:
+  - For both train and test data we apply the following steps:
 
       - We apply tokenizer with vocab_size = 1000 and oov_tok = "<OOV>".
       - We apply the fit_on_texts method. 
