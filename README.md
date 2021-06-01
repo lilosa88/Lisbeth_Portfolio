@@ -280,3 +280,45 @@ Specifically this project is part of the second course in this specialization.
 - Fourth model: TF-idf Vectorizer and Machine Learning model 
     - Train MultinomialNB Algorithm's Accuracy: 0.918
     - Test MultinomialNB Algorithm's Accuracy: 0.880
+
+# [Project 15: IMDB](https://github.com/lilosa88/IMDB)
+
+- This project was carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
+1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
+2. Convolutional Neural Networks in TensorFlow 
+3. Natural Language Processing in TensorFlow 
+4. Sequences, Time Series and Prediction
+
+  Specifically this project is part of the third course in this specialization. 
+  
+- From TensorFlow Data Services (TFTS) library we used the IMDB reviews dataset. This dataset was authored by [Andrew Mass et al at Stanford](http://ai.stanford.edu/~amaas/data/sentiment/). 
+
+
+- Preprocessing: 
+  - Test and train split: This dataset has about 50,000 records. So, we train on 25,000 and validate on the rest.
+  - For both train and test data we apply the following steps:
+
+      - We apply tokenizer with vocab_size = 1000 and oov_tok = OOV.
+      - We apply the fit_on_texts method. 
+      - We apply the word_index method. 
+      - We turn the sentences into lists of values based on these tokens.To do so, we apply the method texts_to_sequences.
+      - We apply the method pad_sequences that use padding. 
+      - We convert the two train and test sets into arrays
+
+- First model: Neural Network with One Embedding layer, one Flatten layer and two Dense layers (Accuracy 1.0) 
+ 
+- Second model: Neural Network with One Embedding layer, one Global Average Pooling 1D layer and two Dense layers (Accuracy 0.9509) 
+  
+- Third model: Neural Network with One Embedding layer, one Bidirectional layer with GRU(32) and two Dense layers: This adds a layer of neurons (Accuracy 0.9832) 
+ 
+- Fourth model: Neural Netwrok with One Embedding layer, one Bidirectional layer with LSTM(32) and two Dense layers (Accuracy 1.0)
+  
+- Fifth model: Neural Network with One Embedding layer, one Conv1D layer, one GlobalAveragePooling1D and Two Dense layers (Accuracy 1.0)
+
+With a pre-tokenize dataset:
+  
+- Sixth model: Neural Network with One Embedding layer, one Global Average Pooling 1D layer and two Dense layers (Accuracy 0.9411)
+
+- Seventh model: Neural Network with One Embedding layer, one Bidirectional layer and two Dense layers (Accuracy 0.8928)
+  
+- Eigth model:Neural Netwrok with One Embedding layer, two Bidirectional layer and two Dense layers (Accuracy 0.9774)
