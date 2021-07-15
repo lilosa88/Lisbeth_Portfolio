@@ -25,27 +25,27 @@
 
 # [Project 3: Case study to predict final prices of houses in Iowa](https://github.com/lilosa88/PricingHouse)
 
-- This project was carried out in the context of a [kaggle's competitions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). In order to buy a house there are many different parameters that influences price negotiations. Therefore, the idea is to create a model that predicts the sales prices given a dataset with 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa. 
+- This project was carried out in the context of a [kaggle's competitions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). In order to buy a house there are many different parameters that influence price negotiations. Therefore, the idea was to create a model that predicts the sales prices given a dataset with 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa. 
 
-- The features that had a huge amount of missing values (approx. more than 2000 missing values), were treated accordingly. We found that indded this values were not missing just they were related to a missing of that particular feature (i.e. For PoolQuality the missing values means that that house did not have any pool). For the rest of the features with missing values, as these features had maximum 4 missing values out of 2919 we fill the data with the corresponding media value for the cases where the feature is float64. For the categorical variables we fill it with the mode. 
+- The features that had a huge amount of missing values (approx. more than 2000 missing values), were treated accordingly. We found that indeed such values were not missing as they could be related to another particular feature (i.e. For PoolQuality the missing values means that house did not have any pool). The real missing values were not so numerous. Thus, an imputation technique (i.e. mean value) was used in order to retrieve sensible data. Similarly, categorical variables were filled using the mode value. 
 
-- For the feature engineering new columns were created in order to better understanding of the data. The redundant or useless information was dropped. As well the categorical variable as strings they were transformed into continuos variables making use of dummy variables and the respective normalization of the whole dataset was carried out using MinMaxScaler. 
+- Concerning the feature engineering, new columns were created in order to better understand the whole dataset. The redundant or useless information was dropped. Moreover, categorical variables such as strings were transformed into continuous variables, making use of dummy variables; the corresponding normalization of the whole dataset was carried out using MinMaxScaler. 
 
-- Two machine Learning model were tested: Ridge Regression and Lasso. The hyperparameter 'alpha' has the following values: 0.0001, 0.001, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 20, 50, 100, 500, 1000. The best for Ridge Regression alpha was 10 and for Lasso was 100. At the end the best accuaracy obtained was given by Lasso: The train Lasso Accuracy was 0.9229 and the test Lasso Accuracy was 0.8902.
+- Two machine Learning model were tested: Ridge Regression and Lasso. The hyperparameter 'alpha' has the following values: 0.0001, 0.001, 0.01, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0, 20, 50, 100, 500, 1000. The best alpha value for the Ridge Regression was found to be equal to 10, whilst we used 100 for Lasso. Finally the best accuaracy obtained was given by Lasso: The train Lasso Accuracy was 0.9229 and the test Lasso Accuracy was 0.8902.
 
 
 # [Project 4: Case study in order to predict the total sunspots number](https://github.com/lilosa88/Sunspots)
-- This project belongs to [kaggle's competitions](https://www.kaggle.com/robervalt/sunspots) and I carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
+- This project was carried out in the context of one of [kaggle's competitions](https://www.kaggle.com/robervalt/sunspots). I had the opportunity to work on it as a part of the curriculum of one of my specialization courses called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is made of four courses: 
 1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
 2. Convolutional Neural Networks in TensorFlow 
 3. Natural Language Processing in TensorFlow 
 4. Sequences, Time Series and Prediction
 
-Specifically this project is part of the second course in this specialization. 
+Specifically, this project is part of the fourth course of this specialization. 
 
-- Sunspots are temporary phenomena on the Sun's photosphere that appear as spots darker than the surrounding areas. They are regions of reduced surface temperature caused by concentrations of magnetic field flux that inhibit convection. Sunspots usually appear in pairs of opposite magnetic polarity. Their number varies according to the approximately 11-year solar cycle. We have a dataset that contains the monthly mean total sunspot number, from 1749/01/01 to 2017/08/31. The idea is to create a Deep Learning model that is capable of predicting the total sunspot number in the future. 
+- Sunspots are temporary phenomena on the Sun's photosphere that appear as spots darker than the surrounding areas. They are regions of reduced surface temperature caused by concentrations of magnetic field fluxes that inhibit convection. Sunspots usually appear in pairs of opposite magnetic polarity. Their number varies according to the approximately 11-year solar cycle. We have a dataset that contains the monthly mean total sunspot number, from 1749/01/01 to 2017/08/31. The idea is to create a Deep Learning model that is capable of predicting the total sunspot number in the future. 
 
-- Loking at how the monthly mean total sunspot number changes with the time we observe a bit of seaonality. However it is not very regular with some peaks much higher than others. We also have a bit of noise but there is not general trend.
+- Loking at how the monthly mean total sunspot number changes with time, we can observe a bit of seaonality. However, it is not very regular given that some peaks are much higher than others. We also have a bit of noise, but there is no general trend.
 
 -  We split our series into a training and validation datatests. We select split_time= 3000. We set all the constants for our neural network model. Window_size = 20, batch_size = 32 and shuffle_buffer_size = 1000.
 
@@ -54,53 +54,53 @@ Specifically this project is part of the second course in this specialization.
 
 # [Project 5: Digit Recognizer](https://github.com/lilosa88/DigitRecognizion)
 
-- This project belongs to [kaggle's competitions](https://www.kaggle.com/c/digit-recognizer) and I carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
+- This project is one of [kaggle's competitions](https://www.kaggle.com/c/digit-recognizer). As previously, I carried out this work as a part of a specialization course called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is made of 4 courses: 
 1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
 2. Convolutional Neural Networks in TensorFlow 
 3. Natural Language Processing in TensorFlow 
 4. Sequences, Time Series and Prediction
 
-Specifically this project is part of the second course in this specialization. 
+Specifically, this project is part of the second course of this specialization. 
 
-- MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike.
+- MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerged, MNIST remains a reliable resource for researchers and learners alike.
 
-- The objective of this study is to correctly identify digits from a dataset of tens of thousands of handwritten images.
+- The objective of this study was to correctly identify digits from a dataset of tens of thousands of handwritten images.
 
 -  For the feature engineering we:
   
-    - Defined X and Y from the df_train dataset
-    - So we normalize dividing by 255 (maximum value that you can find in one row of the df_train dataset).
-    - Resahping, following X = X.values.reshape(-1, 28,28,1)
+    - Defined X and Y from the df_train dataset.
+    - We normalized, dividing by 255 (maximum value that you can find in one row of the df_train dataset).
+    - Reshaping, following X = X.values.reshape(-1, 28,28,1)
     - Label encoding for the y label
     - Split into train and test
 
-- We compare the performance of two following two neural networks: Simple Model (Accuracy 0.97238) and Model with double convolutions and pooling (Accuracy 0.9864). In both case the activation functions used were 'relu' and 'softmax', the lr = 0.001 and as loss function we use categorical_crossentropy.
+- We compared the performance of two following two neural networks: Simple Model (Accuracy 0.97238) and Model with double convolutions and pooling (Accuracy 0.9864). In both case the activation functions used were 'relu' and 'softmax', the lr = 0.001 and as loss function we use categorical_crossentropy.
   
 # [Project 6: Fashion-MNIST](https://github.com/lilosa88/Fashion-MNIST-)
 
-- This project belongs to [kaggle's competitions](https://www.kaggle.com/zalando-research/fashionmnist) and I carried out as a part of a specialization called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT) which is given by DeepLearning.AI. This specialization is conformed by 4 courses: 
+- This project belongs to one of [kaggle's competitions](https://www.kaggle.com/zalando-research/fashionmnist). I carried out this work as part of a specialization course called [DeepLearning.AI TensorFlow Developer Specialization](https://www.coursera.org/account/accomplishments/specialization/certificate/L6R6AFWVXHZT), which is given by DeepLearning.AI. This specialization is made of 4 courses: 
 1. Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning 
 2. Convolutional Neural Networks in TensorFlow 
 3. Natural Language Processing in TensorFlow 
 4. Sequences, Time Series and Prediction
 
-  Specifically this project is part of the first course in this specialization. 
+  Specifically, this project is part of the first course of this specialization. 
 
-- MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerge, MNIST remains a reliable resource for researchers and learners alike.
+- MNIST ("Modified National Institute of Standards and Technology") is the de facto “hello world” dataset of computer vision. Since its release in 1999, this classic dataset of handwritten images has served as the basis for benchmarking classification algorithms. As new machine learning techniques emerged, MNIST remains a reliable resource for researchers and learners alike.
 
 - Fashion-MNIST is a dataset of Zalando's article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. Zalando intends Fashion-MNIST to serve as a direct drop-in replacement for the original MNIST dataset for benchmarking machine learning algorithms. It shares the same image size and structure of training and testing splits.
 
 - The objective of this study is to correctly identify the different Zalando's articles from the dataset.
 
--  For the feature engineering we:
+-  For the feature engineering we did the following:
   
-    - The Fashion MNIST data is available directly in the tf.keras datasets API. Using load_data we get two sets of two lists, these will be the training and testing values for the graphics that contain the clothing items and their labels.
+    - Since the Fashion MNIST data is available directly in the tf.keras datasets API, we used load_data to get two sets of two lists, which represent the training and testing values of the corresponding imagesm which contain the clothing items and their labels.
  
-- The values in the number are between 0 and 255. Since we will train a neural network, we need that all values are between 0 and 1. Therefore, we normalize dividing by 255.
+    - We normalized by the column length (i.e. 255).
 
-- We reshape the images (only for the second model), following training_images.reshape(60000, 28, 28, 1) and test_images.reshape(10000, 28, 28, 1)
+    - We reshaped the images (only for the second model), using training_images.reshape(60000, 28, 28, 1) and test_images.reshape(10000, 28, 28, 1)
 
-- We compare the performance of the two following two neural networks: Simple Neural Network (Accuracy 0.9299) and Neural Network with convolutions and pooling (Accuracy 0.9953). 
+- We compared the performance using the following neural networks: Simple Neural Network (Accuracy 0.9299) and Neural Network with convolutions and pooling (Accuracy 0.9953). 
 
 # [Project 7: Horse or Human](https://github.com/lilosa88/Horse-or-Human)
 
