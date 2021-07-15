@@ -1,31 +1,31 @@
 # Data Science Portfolio
 
-# [Project 1: Case study of the survival rate in Titanic](https://github.com/lilosa88/Titanic)
+# [Project 1: Case study of the survival rate in Titanic historical accident](https://github.com/lilosa88/Titanic)
 
-- The sinking of the Titanic is one of the most infamous shipwrecks in history. While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others. This project that is part of [kaggle's competitions](https://www.kaggle.com/c/titanic/overview) has as objective to build a predictive model that answers the question: “what sorts of people were more likely to survive?” using passenger data (ie name, age, gender, socio-economic class, etc).
+- The sinking of the Titanic is one of the most infamous shipwrecks in history. While there was some element of luck involved in surviving, it seems some groups of people were more likely to survive than others. This project is part of [kaggle's competitions](https://www.kaggle.com/c/titanic/overview) its main goal involves building a predictive model that answers the following question: “what sorts of people were more likely to survive?”. The work was carried out using passenger data (i.e. name, age, gender, socio-economic class, etc).
 
-- From data exploration we found that women and kids had more chances to survive. As well, the class ticket played a role, being the 1st class the onces with more chances to survive. The age and the place of embarking was decisive for the suvival for mens. People that travel with 1 or 3 people than 0 or more than 3, had more chances to survive.
+- From mere data exploration we found that women and kids had more chances to survive. Furthermore, the class ticket played an important role: 1st class passengers had more chances to survive. The age and the place of embarking was decisive with respect to mens' suvival. People travelling with 1 or 3 people were more likely to survive than if they had either zero or more than three family members.
 
-- Different Classification Machine Learning model and Deep Learning model were used in oder to predict the survival of passengers aboard Titanic. Among the classification ML we used Random Forest, Logistic Regression and KNN.
+- Different Classification Machine Learning models and Deep Learning models were used in oder to predict the survival of passengers aboard of the Titanic. Among the ML classification we made use of Random Forest, Logistic Regression and KNN.
 
-- The best accuracy (0.86) was obtained from Deep Learning Model. The use of Dropout layers was used in order to avoid overfitting.  
+- The best accuracy (0.86) was obtained from a Deep Learning Model. The use of Dropout layers was used in order to avoid overfitting.  
 
 
 # [Project 2: Case study of the Diabetes rate](https://github.com/lilosa88/Diabetes)
 
-- Dataset is obtained from [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.). This has been collected using direct questionnaires from the patients of Sylhet Diabetes Hospital in Sylhet, Bangladesh and approved by a doctor. This dataset contains the sign and symptpom data of newly diabetic or would be diabetic patient. The objective is to build a predictive model that predicts if a pacient is prone to be diabetic or not using the dataset. 
+- The dataset was obtained from [UC Irvine Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Early+stage+diabetes+risk+prediction+dataset.). Data was collected using direct questionnaires from the patients of Sylhet Diabetes Hospital in Sylhet, Bangladesh and approved by a doctor. This dataset contains the signs and symptpoms data of newly diabetic or soon to be diabetic patients. The objective of this project was to build a predictive model that can  predict whether a patient is prone to be diabetic or not. 
 
-- From data exploration we found that except for the features itching and delayed healing, the rest of the features has an influence on the diabetes rate. Specificately the once that has more influence are:
+- From mere data exploration we found that all features but "itching" and "delayed healing" have an influence on the diabetes rate. More specifically, the ones with major impact are:
 -Gender: Women are more prone to get diabetes.
--Polyuria: If the pacient present an excessive or an abnormally large production or passage of urine then is more prone to get diabetes.
--Polydipsia: If the pacient present an excessive thirst or excess drinking is more prone to get diabetes.
--Polyphagia:  If the pacient present an feels an abnormally strong sensation of hunger or desire to eat often leading to or accompanied by overeating is more prone to get diabetes.
+-Polyuria: If the patient presents an excessive or an abnormally large production or passage of urine then he/she is more prone to get diabetes.
+-Polydipsia: If the patient presents an excessive thirst or excess drinking, then he/she is more prone to get diabetes.
+-Polyphagia:  If the patient presents an abnormally strong sensation of hunger or desire to eat often leading to or accompanied by over-eating, then she/he is more prone to get diabetes.
 
 - The best accuracy (0.9711) was obtained with KNN with k=3.
 
 # [Project 3: Case study to predict final prices of houses in Iowa](https://github.com/lilosa88/PricingHouse)
 
-- This project belongs to [kaggle's competitions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). In order to buy a house there are many different parameters that influences price negotiations. Therefore, the idea is to create a model that predicts the sales prices given a dataset with 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa. 
+- This project was carried out in the context of a [kaggle's competitions](https://www.kaggle.com/c/house-prices-advanced-regression-techniques). In order to buy a house there are many different parameters that influences price negotiations. Therefore, the idea is to create a model that predicts the sales prices given a dataset with 79 explanatory variables describing (almost) every aspect of residential homes in Ames, Iowa. 
 
 - The features that had a huge amount of missing values (approx. more than 2000 missing values), were treated accordingly. We found that indded this values were not missing just they were related to a missing of that particular feature (i.e. For PoolQuality the missing values means that that house did not have any pool). For the rest of the features with missing values, as these features had maximum 4 missing values out of 2919 we fill the data with the corresponding media value for the cases where the feature is float64. For the categorical variables we fill it with the mode. 
 
